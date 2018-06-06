@@ -1,14 +1,4 @@
 # kunstmatigestroom
 Data-analyse en visualisatie-project
 
-MATHIAS WAS HERE
-TESTSTSTTSTSTSTST
-SNACKS! gezellig
-<<<<<<< HEAD
-SNACKS! gezellig!
-=======
-
-Gittest van thias
->>>>>>> fcd8e7579e9e985e60a5c5fcd0a95ad6a9c22347
-
-!!!!!
+Voor het inlezen van de datasets by errors deze opties toevoegen: sep='\t', encoding='cp1252'
