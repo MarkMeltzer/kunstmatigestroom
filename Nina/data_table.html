@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.16.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.16.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.16.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.16.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="11f0c0ac-05f0-4368-b952-8397028230da"></div>
+        </div>
+        
+        <script type="application/json" id="11591273-1fbf-40f5-92cd-d473d265acb2">
+          {"c5fe1198-8633-4d44-abd6-e8c22b1352d9":{"roots":{"references":[{"attributes":{"source":{"id":"186ef8b7-b956-4cda-bfac-fa49bce9503f","type":"ColumnDataSource"}},"id":"6be1aa31-fb94-4191-a992-7fca650f0fb3","type":"CDSView"},{"attributes":{"callback":null,"data":{"dates":[["Centrum","West","Nieuw-West","Zuid","Oost","Noord","Zuidoost","Westpoort","Amsterdam"]],"downloads":[5,60,72,95,35,58,58,29,9,59]},"selected":{"id":"43dfc0a8-77b7-4025-aaf9-9ebf846390ec","type":"Selection"},"selection_policy":{"id":"5346d304-e272-4d4a-b37f-18d03d8b91f5","type":"UnionRenderers"}},"id":"186ef8b7-b956-4cda-bfac-fa49bce9503f","type":"ColumnDataSource"},{"attributes":{"children":[{"id":"b34ea80b-07d6-45ae-8473-5acfcd5dbf79","type":"DataTable"}]},"id":"53fbe217-9603-4ffd-aefb-da811734e2cb","type":"WidgetBox"},{"attributes":{"editor":{"id":"79cf6533-0f94-41d1-9850-1c9e6c0b67a9","type":"StringEditor"},"field":"downloads","formatter":{"id":"2f73c2f6-3941-4aa1-83a7-061084094164","type":"StringFormatter"},"title":"Downloads"},"id":"27993952-75d0-40b8-bdec-ce5dc1001d31","type":"TableColumn"},{"attributes":{},"id":"963b04e8-990e-4ef3-8ea4-024627e26294","type":"StringEditor"},{"attributes":{"columns":[{"id":"e646ae82-ca8b-4e02-9f16-4efc8529ab48","type":"TableColumn"},{"id":"27993952-75d0-40b8-bdec-ce5dc1001d31","type":"TableColumn"}],"height":280,"source":{"id":"186ef8b7-b956-4cda-bfac-fa49bce9503f","type":"ColumnDataSource"},"view":{"id":"6be1aa31-fb94-4191-a992-7fca650f0fb3","type":"CDSView"},"width":400},"id":"b34ea80b-07d6-45ae-8473-5acfcd5dbf79","type":"DataTable"},{"attributes":{},"id":"5346d304-e272-4d4a-b37f-18d03d8b91f5","type":"UnionRenderers"},{"attributes":{},"id":"c6b31486-e044-4ecf-872a-64fe8700426f","type":"DateFormatter"},{"attributes":{},"id":"2f73c2f6-3941-4aa1-83a7-061084094164","type":"StringFormatter"},{"attributes":{},"id":"43dfc0a8-77b7-4025-aaf9-9ebf846390ec","type":"Selection"},{"attributes":{},"id":"79cf6533-0f94-41d1-9850-1c9e6c0b67a9","type":"StringEditor"},{"attributes":{"editor":{"id":"963b04e8-990e-4ef3-8ea4-024627e26294","type":"StringEditor"},"field":"dates","formatter":{"id":"c6b31486-e044-4ecf-872a-64fe8700426f","type":"DateFormatter"},"title":"Date"},"id":"e646ae82-ca8b-4e02-9f16-4efc8529ab48","type":"TableColumn"}],"root_ids":["53fbe217-9603-4ffd-aefb-da811734e2cb"]},"title":"Bokeh Application","version":"0.12.16"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('11591273-1fbf-40f5-92cd-d473d265acb2').textContent;
+                  var render_items = [{"docid":"c5fe1198-8633-4d44-abd6-e8c22b1352d9","elementid":"11f0c0ac-05f0-4368-b952-8397028230da","modelid":"53fbe217-9603-4ffd-aefb-da811734e2cb"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
