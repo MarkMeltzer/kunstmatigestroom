@@ -3,3 +3,9 @@ https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zake
 
 - energieprijzen
 http://www.clo.nl/indicatoren/nl055408-energieprijzen-en-wereldolieprijs-
+
+- inwonertal
+OIS amsterdam(onderzoek, informatie en statistiek)
+
+- temperatuur data
+KNMI

@@ -1,6 +1,7 @@
-- begin met dalend energie verbruik
-- ligt het aan inwonertal? nee
-- ligt het aan temperatuur? nee
+- begin met dalend energie verbruik CHECK
+- ligt het aan inwonertal? nee CHECK
+- ligt het aan temperatuur? nee CHECK
 - ligt het leveringsrichting? nee
-- ligt het aan energieprijs? nee
+- ligt het aan energieprijs? nee CHECK
 - het komt wss door meerder kleine dingen, belasting, apparaten die zuiniger zijn, mensen die bewuster zijn
+(bronnen zoeken voor het laatste)
