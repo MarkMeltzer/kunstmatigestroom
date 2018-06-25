@@ -3,5 +3,7 @@
 - ligt het aan temperatuur? nee CHECK
 - ligt het leveringsrichting? nee
 - ligt het aan energieprijs? nee CHECK
-- het komt wss door meerder kleine dingen, belasting, apparaten die zuiniger zijn, mensen die bewuster zijn
+- het komt wss door meerder kleine dingen, belasting(zie bronnen), apparaten die zuiniger zijn(https://www.energielabel.nl/), mensen die bewuster zijn(https://www.ad.nl/economie/nederlander-steeds-bewuster-van-energierekening~af3582b7/)
 (bronnen zoeken voor het laatste)
+(plots mogen nog een iets van 100 pixels groter)
+(legenda alpha van legenda mag ook kleiner, "p.legend.background_fill_alpha = 0.5")
