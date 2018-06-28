@@ -1,0 +1,7 @@
+- begin met dalend energie verbruik CHECK
+- ligt het aan inwonertal? nee CHECK
+- ligt het aan temperatuur? nee CHECK
+- ligt het aan energieprijs? nee CHECK
+- ligt het leveringsrichting? voor stroom wel, gas niet(stacked bar chart)
+- ligt het aan belasting? (zie bronnen)voor stroom wel
+- daarnaast worden apparaten zuiniger(https://www.energielabel.nl/) en zijn mensen bewuster(https://www.ad.nl/economie/nederlander-steeds-bewuster-van-energierekening~af3582b7/)

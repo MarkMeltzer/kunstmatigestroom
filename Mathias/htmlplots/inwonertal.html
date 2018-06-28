@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="ed813cdb-7395-4da6-bc64-260f64f2c4b7"></div>
+        </div>
+        
+        <script type="application/json" id="685fed65-cdd9-40ab-8419-836f541ab7b8">
+          {"c924e224-52e9-4fde-b7d5-160799774428":{"roots":{"references":[{"attributes":{},"id":"f71a47f1-2854-4165-a27f-51b7112a7760","type":"BasicTicker"},{"attributes":{"plot":null,"text":"Inwonertal Amsterdam 2011-2017","text_color":{"value":"white"}},"id":"bff7dcb5-a698-4297-8491-51302d54d4f1","type":"Title"},{"attributes":{"line_color":"orange","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"2507eaf4-cddc-4a0c-8ce7-3087c87f36c9","type":"Line"},{"attributes":{"data_source":{"id":"83d8fb94-4204-4320-9b18-912fb1efe3bf","type":"ColumnDataSource"},"glyph":{"id":"2507eaf4-cddc-4a0c-8ce7-3087c87f36c9","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"e1b24f82-8764-46e3-a1fe-7e32acad0fa8","type":"Line"},"selection_glyph":null,"view":{"id":"301e679d-11af-4d83-9e1c-6805ea2ad44d","type":"CDSView"}},"id":"d4935771-7bf6-42a1-b5ab-1d2cf0de48aa","type":"GlyphRenderer"},{"attributes":{"background_fill_alpha":{"value":0.5},"below":[{"id":"8a0b7261-8c4c-49a7-9cbe-40e013ac5949","type":"LinearAxis"}],"border_fill_alpha":{"value":0.35},"left":[{"id":"9678508f-0fa9-4d18-867a-0d7fc85d776e","type":"LinearAxis"}],"plot_height":500,"renderers":[{"id":"8a0b7261-8c4c-49a7-9cbe-40e013ac5949","type":"LinearAxis"},{"id":"ce8a4f27-0d2f-4ce9-8af6-bc8e85b54adc","type":"Grid"},{"id":"9678508f-0fa9-4d18-867a-0d7fc85d776e","type":"LinearAxis"},{"id":"20387f4d-c452-41e5-bc9c-2594920160f0","type":"Grid"},{"id":"6b2907de-61d1-4e7e-b938-80aad9f09e1b","type":"Legend"},{"id":"d4935771-7bf6-42a1-b5ab-1d2cf0de48aa","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"bff7dcb5-a698-4297-8491-51302d54d4f1","type":"Title"},"toolbar":{"id":"938037bb-52ab-4be6-8804-8f8784745eba","type":"Toolbar"},"toolbar_location":"below","x_range":{"id":"ef29bb35-0133-4432-9f72-76ddbf31d00e","type":"DataRange1d"},"x_scale":{"id":"705c9661-e417-4e94-9919-8fdc56ed626b","type":"LinearScale"},"y_range":{"id":"ba907624-4c8a-4f89-9b88-62b4586f77ce","type":"DataRange1d"},"y_scale":{"id":"4517aff6-970f-4533-8332-c87585cf09a6","type":"LinearScale"}},"id":"4047a13f-36e0-4176-8173-0e2f000322e8","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"Inwonertal","formatter":{"id":"398bc7af-02e8-4eb2-9c79-cd4187d411f8","type":"BasicTickFormatter"},"plot":{"id":"4047a13f-36e0-4176-8173-0e2f000322e8","subtype":"Figure","type":"Plot"},"ticker":{"id":"92aa7d33-3e88-407b-bf25-a06d7682dd51","type":"BasicTicker"}},"id":"9678508f-0fa9-4d18-867a-0d7fc85d776e","type":"LinearAxis"},{"attributes":{"callback":null,"mode":"vline","renderers":[{"id":"d4935771-7bf6-42a1-b5ab-1d2cf0de48aa","type":"GlyphRenderer"}],"tooltips":[["Inwonertal","@y{int}"]]},"id":"7716d4b6-0770-48fb-96ac-a8f3fdbc5021","type":"HoverTool"},{"attributes":{"plot":{"id":"4047a13f-36e0-4176-8173-0e2f000322e8","subtype":"Figure","type":"Plot"},"ticker":{"id":"f71a47f1-2854-4165-a27f-51b7112a7760","type":"BasicTicker"}},"id":"ce8a4f27-0d2f-4ce9-8af6-bc8e85b54adc","type":"Grid"},{"attributes":{},"id":"705c9661-e417-4e94-9919-8fdc56ed626b","type":"LinearScale"},{"attributes":{"formatter":{"id":"50f33f3b-f8f7-46fc-98d9-781aacf47d92","type":"BasicTickFormatter"},"plot":{"id":"4047a13f-36e0-4176-8173-0e2f000322e8","subtype":"Figure","type":"Plot"},"ticker":{"id":"f71a47f1-2854-4165-a27f-51b7112a7760","type":"BasicTicker"}},"id":"8a0b7261-8c4c-49a7-9cbe-40e013ac5949","type":"LinearAxis"},{"attributes":{"label":{"value":"Inwonertal"},"renderers":[{"id":"d4935771-7bf6-42a1-b5ab-1d2cf0de48aa","type":"GlyphRenderer"}]},"id":"00a3f67d-779c-4c3b-8f4c-b5822e2919a3","type":"LegendItem"},{"attributes":{},"id":"50f33f3b-f8f7-46fc-98d9-781aacf47d92","type":"BasicTickFormatter"},{"attributes":{},"id":"3b272e4d-0200-4523-bdaf-5f055bbee213","type":"Selection"},{"attributes":{},"id":"572ef02e-9902-48f8-bd0b-27e5942bc882","type":"UnionRenderers"},{"attributes":{},"id":"398bc7af-02e8-4eb2-9c79-cd4187d411f8","type":"BasicTickFormatter"},{"attributes":{},"id":"4517aff6-970f-4533-8332-c87585cf09a6","type":"LinearScale"},{"attributes":{"callback":null},"id":"ef29bb35-0133-4432-9f72-76ddbf31d00e","type":"DataRange1d"},{"attributes":{"background_fill_alpha":{"value":0.5},"items":[{"id":"00a3f67d-779c-4c3b-8f4c-b5822e2919a3","type":"LegendItem"}],"location":"top_left","plot":{"id":"4047a13f-36e0-4176-8173-0e2f000322e8","subtype":"Figure","type":"Plot"}},"id":"6b2907de-61d1-4e7e-b938-80aad9f09e1b","type":"Legend"},{"attributes":{"callback":null},"id":"ba907624-4c8a-4f89-9b88-62b4586f77ce","type":"DataRange1d"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"e1b24f82-8764-46e3-a1fe-7e32acad0fa8","type":"Line"},{"attributes":{"callback":null,"data":{"x":[2011,2012,2013,2014,2015,2016,2017],"y":[790044,799442,811185,822272,834713,844952,854316]},"selected":{"id":"3b272e4d-0200-4523-bdaf-5f055bbee213","type":"Selection"},"selection_policy":{"id":"572ef02e-9902-48f8-bd0b-27e5942bc882","type":"UnionRenderers"}},"id":"83d8fb94-4204-4320-9b18-912fb1efe3bf","type":"ColumnDataSource"},{"attributes":{"dimension":1,"plot":{"id":"4047a13f-36e0-4176-8173-0e2f000322e8","subtype":"Figure","type":"Plot"},"ticker":{"id":"92aa7d33-3e88-407b-bf25-a06d7682dd51","type":"BasicTicker"}},"id":"20387f4d-c452-41e5-bc9c-2594920160f0","type":"Grid"},{"attributes":{},"id":"92aa7d33-3e88-407b-bf25-a06d7682dd51","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"7716d4b6-0770-48fb-96ac-a8f3fdbc5021","type":"HoverTool"}]},"id":"938037bb-52ab-4be6-8804-8f8784745eba","type":"Toolbar"},{"attributes":{"source":{"id":"83d8fb94-4204-4320-9b18-912fb1efe3bf","type":"ColumnDataSource"}},"id":"301e679d-11af-4d83-9e1c-6805ea2ad44d","type":"CDSView"}],"root_ids":["4047a13f-36e0-4176-8173-0e2f000322e8"]},"title":"Bokeh Application","version":"0.12.16"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('685fed65-cdd9-40ab-8419-836f541ab7b8').textContent;
+                  var render_items = [{"docid":"c924e224-52e9-4fde-b7d5-160799774428","elementid":"ed813cdb-7395-4da6-bc64-260f64f2c4b7","modelid":"4047a13f-36e0-4176-8173-0e2f000322e8"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
